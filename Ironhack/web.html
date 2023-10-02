@@ -4,15 +4,65 @@
 
 <head>
     <title>Primera pagina web</title>
+
+    <style>
+        aside {
+            float:right; 
+            width: 30%;
+            padding: 20px;
+            background-color: #ccc;
+        }
+
+        div img {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: aqua;
+        }
+    </style>
+
+    
+
+    <nav style="display: flex;">
+        <ul>Ruben</ul>
+        <ul>Nogueras</ul>
+        <ul>NP: 139174</ul>
+    </nav>
 </head>
 
 <body style="margin: auto;">
+
+    <h1>Primera web</h1>
+
+    <header>Este es el encabezado</header>
+
     <div>
-        <h2>Heading 1</h2>
-        <img width="100%" src="https://i.pinimg.com/550x/49/74/b2/4974b27fe6145a0b4a37caad30883bd5.jpg" alt="MI TESORO">
-        <br>
-        <a href="https://chat.openai.com/">Chat GPT</a>
+        <img src="https://i.pinimg.com/550x/49/74/b2/4974b27fe6145a0b4a37caad30883bd5.jpg" alt="MI TESORO">
+        <img src="https://static.wikia.nocookie.net/inazuma/images/6/60/Young_Hiroto_IE_63_HQ.png/revision/latest?cb=20130320230144&path-prefix=es" alt="CAÑON DE METEORITOS">
     </div>
+
+    <div>
+        <ol>
+            <li>
+                <a href="https://i.pinimg.com/550x/49/74/b2/4974b27fe6145a0b4a37caad30883bd5.jpg">Mira Golum que bonito</a>
+            </li>
+            <li>
+                <a href="https://static.wikia.nocookie.net/inazuma/images/6/60/Young_Hiroto_IE_63_HQ.png/revision/latest?cb=20130320230144&path-prefix=es">Cañon de meteoritos</a>
+            </li>
+        </ol>
+    </div>
+
+    <div>
+        <aside>
+            <p>Esto es un aside</p>
+        </aside>
+    </div>
+
 </body>
 
 </html>
