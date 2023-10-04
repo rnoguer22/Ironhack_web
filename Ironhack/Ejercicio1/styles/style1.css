@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Abadi';
+  src: url('ruta/a/tu/fuente/abadi.woff2') format('woff2'),
+       url('ruta/a/tu/fuente/abadi.woff') format('woff'),
+       url('ruta/a/tu/fuente/abadi.ttf') format('truetype');
+  /* Agrega más formatos si es necesario */
+}
+
+
+
+* {
+  font-family: 'Abadi', sans-serif;
+}
+
+
+h1 {
+    color: pink; 
+    text-decoration: underline; 
+   }
+
+   
+p {
+     font-size: 18px;
+     width: 400px;
+     text-indent: 50px;
+     text-align: justify;
+   }
+
+
+body {
+  background-color: #00D1AE;
+}
+
+
+.blue-box {
+    background-color: blue;
+}
+
+
+.red-box {
+    background-color: red;
+}
+
+
+.yellow-box {
+    background-color: yellow;
+}
+
+
+.menu {
+    width: 400px;
+    height: 50px;
+    background-color: red;
+}
+
+
+.content {
+    width: 400px;
+    height: 50px;
+    background-color: blue;
+}
+
+
+.featured{
+  font-weight: bold;
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Abadi';
+    src: url('ruta/a/tu/fuente/abadi.woff2') format('woff2'),
+         url('ruta/a/tu/fuente/abadi.woff') format('woff'),
+         url('ruta/a/tu/fuente/abadi.ttf') format('truetype');
+    /* Agrega más formatos si es necesario */
+}
+
+body {
+    font-family: 'Abadi', sans-serif;
+    background-color: #eee;
+}
+
+aside {
+    float:right; 
+    width: 30%;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+div img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+    margin: 10px;
+}
+
+.blue-box {
+    background-color: blue;
+}
+
+.red-box {
+    background-color: red;
+}
+
+.yellow-box {
+    background-color: yellow;
+}
+.fuchsia-box { 
+    background-color: fuchsia;
+}
+
+select:hover {
+    color: white;
+}
+
+nav ul:hover {
+    color: blue;
+}
