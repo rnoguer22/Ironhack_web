@@ -1,0 +1,45 @@
+div {
+    float: left;
+    width: 100px;
+}
+
+#div1, #div5, #div7{
+    height: 40px;
+}
+#div1, #div5, #div7{
+    height: 120px;
+}
+#div1, #div5, #div7{
+    height: 80px;
+}
+
+#col1 div{
+    background-color: aqua;
+    border: 2px solid blue;
+}
+
+#col2 div{
+    background-color: yellow;
+    border: 2px solid gold;
+
+}
+
+#col3 div{
+    background-color: pink;
+    border: 2px solid fuchsia;
+}
+
+div p{
+    text-align: center;
+    align-items: center;    
+    font-size: 20px;
+    font-weight: bold;    
+}
+
+.margin-der{
+    margin-right: 10px;
+}
+
+.margin-ab{
+    margin-bottom: 10px;
+}
